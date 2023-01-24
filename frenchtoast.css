@@ -1,0 +1,19 @@
+body {
+  background-color: #6C3E08
+}
+
+h1, h4 {
+  color: #C0A793
+}
+
+img {
+  max-width: 90%;
+  height: auto
+}
+
+li, p {
+  color: #E0CC8B
+}
+strong, em {
+  color: #CA9970
+}
