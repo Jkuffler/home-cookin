@@ -3,7 +3,7 @@
 }
 
 body {
-  background-color: #6C3E08
+  background-color: #3C1301
 }
 
 h1, h4 {
@@ -16,8 +16,17 @@ img {
 }
 
 li, p {
-  color: #E0CC8B
+  color: #CA9970
 }
+
 strong, em {
+  color: #EBD37B
+}
+
+a, a:visited {
+  color: #C0A793
+}
+
+a:hover {
   color: #CA9970
 }
