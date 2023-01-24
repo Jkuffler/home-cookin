@@ -1,5 +1,9 @@
+*{
+  box-sizing: border-box;
+}
+
 body {
-  background-color: #6C3E08
+  background-color: #322417
 }
 
 h1 {
@@ -11,6 +15,10 @@ img {
   height: auto
 }
 
-a {
-  color: #CA9970
+a, a:visited {
+  color: #9B5B19
+}
+
+a:hover {
+  color: #BEAE8D
 }
