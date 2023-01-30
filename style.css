@@ -3,11 +3,32 @@
 }
 
 body {
-  background-color: #322417
+  background-color: #322417;
+  color: #A96E3B;
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex: 1;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
 }
 
 h1 {
   color: #C0A793
+} 
+
+ul {
+  list-style-type: none;
+  text-align: center;
 }
 
 img {
@@ -17,7 +38,8 @@ img {
 }
 
 a, a:visited {
-  color: #9B5B19
+  color: #9B5B19;
+  text-decoration: none;
 }
 
 a:hover {
