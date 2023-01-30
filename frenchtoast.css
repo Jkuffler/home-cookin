@@ -3,7 +3,11 @@
 }
 
 body {
-  background-color: #3C1301
+  background-color: #3C1301;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 h1, h4 {
