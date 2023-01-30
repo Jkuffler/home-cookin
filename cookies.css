@@ -14,11 +14,10 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  flex: 1;
 }
 
 h1, h4, strong, em {
-  color: #BEAE8D
+  color: #BEAE8D;
 }
 
 img {
@@ -41,14 +40,15 @@ ol {
 }
 
 li, p {
-  color: #B18253
+  color: #B18253;
 }
 
 a, a:visited {
+  margin: .75em;
   color: #9B5B19;
   text-decoration: none;
 }
 
 a:hover {
-  color: #BEAE8D
+  color: #BEAE8D;
 }

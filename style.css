@@ -38,8 +38,9 @@ h1 {
 ul {
   display: flex;
   list-style-type: none;
-  text-align: center;
   justify-content: space-between;
+  align-items: center;
+  text-align: center;
 }
 
 img {
