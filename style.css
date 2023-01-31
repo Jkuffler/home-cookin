@@ -9,6 +9,7 @@ body {
   flex-direction: column;
 }
 
+
 button {
   background-color: #A96E3B;
   display: flex;
@@ -24,34 +25,48 @@ button {
   justify-content: space-between;
   align-items: center;
   flex: 1;
+  padding-left: 1em;
+  padding-right: 1em;
 }
 
 .container {
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  gap: 1em;
+  flex-wrap: wrap;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1em;
 }
 
 h1 {
   color: #C0A793
 } 
 
-ul {
-  display: flex;
-  list-style-type: none;
-  justify-content: space-between;
-  align-items: center;
-  text-align: center;
-}
-
 img {
+  display: flex;
   max-width: 300px;
   max-height: 300px;
   border-radius: 1em;
 }
 
+footer {
+  display: flex;
+  flex-direction: column;
+  margin-top: 2em;
+  text-align: center;
+}
+
 a, a:visited {
   color: #9B5B19;
   text-decoration: none;
+  text-align: center;
 }
 
 a:hover {
