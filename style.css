@@ -56,6 +56,8 @@ img {
   max-width: 300px;
   max-height: 300px;
   border-radius: 1em;
+  margin-top: .5em;
+  margin-bottom: .75em;
 }
 
 footer {
