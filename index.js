@@ -1,11 +1,11 @@
-const showButton = document.getElementById("about-btn")
-const closeBtn = document.getElementById("close-btn")
+const aboutBtn = document.getElementById("about-btn")
 const about = document.getElementById("about")
+const closeBtn = document.getElementById("close-btn")
 
-showButton.addEventListener('click', () => {
+aboutBtn.addEventListener('click', () => {
   about.showModal();
 })
 
-closeBtn.addEventListener('close', () => {
-  about.closeModal();
+closeBtn.addEventListener('click', () => {
+  about.close();
 } )
