@@ -52,3 +52,7 @@ a, a:visited {
 a:hover {
   color: #BEAE8D;
 }
+
+iframe {
+  border-radius: .5em;
+}
