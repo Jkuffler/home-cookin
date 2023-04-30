@@ -22,15 +22,13 @@ img {
   margin-bottom: .75em;
 }
 
-ul {
+ul, ol {
   margin: 1em;
-  list-style: circle;
   padding: 0;
 }
 
-ol {
-  margin: 1em;
-  padding: 0;
+ul {
+  list-style: circle;
 }
 
 li, p {
