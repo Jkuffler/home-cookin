@@ -13,6 +13,7 @@ body {
 
 
 button {
+  border-radius: 5px;
   background-color: #A96E3B;
   display: flex;
 }
@@ -22,7 +23,11 @@ button {
   justify-content: flex-end;
 }
 
-.header {
+dialog {
+  border-radius: 10px;
+}
+
+header {
   display: flex;
   justify-content: space-between;
   align-items: center;
