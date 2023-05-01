@@ -20,23 +20,23 @@ h1, h4, strong, em {
   color: #BEAE8D;
 }
 
+h4 {
+  text-align: center;
+}
+
 img {
   max-width: 300px;
   max-height: 300px;
   border-radius: 1em;
 }
 
-ul {
-  margin: 0;
-  list-style-position: inside;
-  list-style: circle;
+ul, ol {
+  margin: 1em;
   padding: 0;
 }
 
-ol {
-  margin: 0;
-  padding: 0;
-  list-style-position: inside;  
+ul {
+  list-style: circle;
 }
 
 li, p {
@@ -54,5 +54,19 @@ a:hover {
 }
 
 iframe {
-  border-radius: .5em;
+  position: absolute;
+  top: 0;
+  left: 5%;
+  bottom: 0;
+  right: 0;
+  width: 90%;
+  height: 90%;
+  border: none;
+}
+
+.video {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  padding-top: 75%; /* 4:3 Aspect Ratio */
 }

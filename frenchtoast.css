@@ -26,21 +26,13 @@ img {
   border-radius: 1em;
 }
 
-ul {
-  display: flex;
-  flex-direction: column;
-  margin: 0;
-  list-style-position: inside;
-  list-style: circle;
+ul, ol {
+  margin: 1em;
   padding: 0;
 }
 
-ol {
-  display: flex;
-  flex-direction: column;
-  margin: 0;
-  padding: 0;
-  list-style-position: inside;
+ul {
+  list-style: circle;
 }
 
 li, p {

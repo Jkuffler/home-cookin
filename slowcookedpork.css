@@ -17,20 +17,18 @@ h1, h4 {
 img {
   max-width: 300px;
   max-height: 300px;
-  border-radius: 1em;
+  border-radius: 1em;  
+  margin-top: .5em;
+  margin-bottom: .75em;
+}
+
+ul, ol {
+  margin: 1em;
+  padding: 0;
 }
 
 ul {
-  margin: 0;
-  list-style-position: inside;
   list-style: circle;
-  padding: 0;
-}
-
-ol {
-  margin: 0;
-  padding: 0;
-  list-style-position: inside;  
 }
 
 li, p {
