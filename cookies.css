@@ -20,6 +20,10 @@ h1, h4, strong, em {
   color: #BEAE8D;
 }
 
+h4 {
+  text-align: center;
+}
+
 img {
   max-width: 300px;
   max-height: 300px;
@@ -50,5 +54,19 @@ a:hover {
 }
 
 iframe {
-  border-radius: .5em;
+  position: absolute;
+  top: 0;
+  left: 5%;
+  bottom: 0;
+  right: 0;
+  width: 90%;
+  height: 90%;
+  border: none;
+}
+
+.video {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  padding-top: 75%; /* 4:3 Aspect Ratio */
 }
