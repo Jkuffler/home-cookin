@@ -100,27 +100,46 @@
         </dialog>
       </div>
 
-      <!-- OTHER RECIPES (unchanged links) -->
       <div class="card">
-        <a href="recipes/slowcookedpork.html">
-          Seared & Slow-cooked Pork Shoulder
-          <img src="searedpork.jpg" />
-        </a>
-      </div>
+    <button data-dialog="pork">
+      <h2>Seared & Slow-cooked Pork Shoulder</h2>
+      <img src="searedpork.jpg" />
+    </button>
 
-      <div class="card">
-        <a href="recipes/frenchtoast.html">
-          French Toast
-          <img src="carbspiral.jpg" />
-        </a>
-      </div>
+    <dialog id="pork">
+      <button class="close-btn">Close</button>
+      <h2>Seared & Slow-cooked Pork Shoulder</h2>
+      <p>Low effort, high reward. Fall-apart tender.</p>
+    </dialog>
+  </div>
 
-      <div class="card">
-        <a href="grilledchez.html">
-          The Mighty Grilled Cheese
-          <img src="grilledcheese.jpg" />
-        </a>
-      </div>
+  <!-- FRENCH TOAST -->
+  <div class="card">
+    <button data-dialog="french-toast">
+      <h2>French Toast</h2>
+      <img src="carbspiral.jpg" />
+    </button>
+
+    <dialog id="french-toast">
+      <button class="close-btn">Close</button>
+      <h2>French Toast</h2>
+      <p>Crisp edges, custardy middle.</p>
+    </dialog>
+  </div>
+
+  <!-- GRILLED CHEESE -->
+  <div class="card">
+    <button data-dialog="grilled-cheese">
+      <h2>The Mighty Grilled Cheese</h2>
+      <img src="grilledcheese.jpg" />
+    </button>
+
+    <dialog id="grilled-cheese">
+      <button class="close-btn">Close</button>
+      <h2>The Mighty Grilled Cheese</h2>
+      <p>Butter. Heat. Cheese. Mastery.</p>
+    </dialog>
+  </div>
     </section>
 
     <footer><a href="mailto:jakuffler@gmail.com">Jason Kuffler</a> 2023</footer>
