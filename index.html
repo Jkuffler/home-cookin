@@ -1,49 +1,128 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta
-      http-equiv="X-UA-Compatible"
-      content="IE=edge" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1.0" />
-      <link rel="stylesheet" href="style.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <title>Homemade Classics</title>
     <script src="index.js" defer></script>
   </head>
 
   <body>
-    <header>      
+    <header>
       <h1>Our Household Recipes</h1>
+
+      <!-- ABOUT DIALOG -->
       <dialog id="about">
-        <button id="close-btn"> X </button>
+        <button class="close-btn">Close</button>
         <div class="container">
-          <p>have you tried <strong>tunafish and spaghetti</strong> yet? If so, did you make it using tomato juice for your spaghetti sauce? If so, was your favorite part of this meal the side dish: oven-toasted garlic bread? I'm talking about white bread, oven toasted, with butter and garlic salt.</p>
-          <p>it's not so bad, really. gotta say though: having tunafish and spaghetti <em>very regularly</em> throughout my formative years left me with a firm resolve to provide more flavor from my own kitchen</p>
-          <p>this is my love letter to food. food always inspires me. here are recipes and such. check back. stop by. i made enough to share!</p> 
+          <p>
+            have you tried <strong>tunafish and spaghetti</strong> yet? If so,
+            did you make it using tomato juice for your spaghetti sauce?
+          </p>
+          <p>
+            it's not so bad, really. gotta say though: having tunafish and
+            spaghetti <em>very regularly</em> throughout my formative years left
+            me with a firm resolve to provide more flavor from my own kitchen
+          </p>
+          <p>
+            this is my love letter to food. food always inspires me. here are
+            recipes and such. check back. stop by. i made enough to share!
+          </p>
         </div>
-      </dialog> 
+      </dialog>
+
       <button id="about-btn">about</button>
     </header>
 
     <section class="container">
+      <!-- CHOCOLATE CHIP COOKIES CARD -->
       <div class="card">
-        <a href="recipes/cookies.html"> Chocolate Chip Cookies <img src="cookiestack.jpg  "/> </a>
+        <button id="ccc-btn">
+          <h2>Chocolate Chip Cookies</h2>
+          <img src="cookiestack.jpg" alt="Chocolate chip cookies" />
+        </button>
+
+        <dialog id="ccc">
+          <button class="close-btn">Close</button>
+
+          <h2>Chocolate Chip Cookies</h2>
+
+          <h4>
+            Planning to share? These freshly baked, from-scratch cookies will
+            make you super popular!
+          </h4>
+
+          <div class="ingredients">
+            <h4>Ingredients</h4>
+            <ul>
+              <li>2.5 sticks room-temp unsalted butter</li>
+              <li>1.25 cups granulated sugar</li>
+              <li>.75 cups brown sugar</li>
+              <li>2 room-temp eggs</li>
+              <li>Vanilla extract – to taste</li>
+              <li>2.25 cups flour</li>
+              <li>1–1.5 tsp baking soda</li>
+              <li>Sea salt – to taste</li>
+              <li>2 cups chocolate chips</li>
+            </ul>
+
+            <h4>I like my cookies thin & crisp</h4>
+            <section class="video">
+              <iframe
+                src="https://www.youtube.com/embed/hCzVqaFMlIw"
+                title="Cookie video"
+                allowfullscreen
+              ></iframe>
+            </section>
+
+            <h4>Steps</h4>
+            <ol>
+              <li>Preheat oven to 350°F</li>
+              <li>Lightly mix butter and sugars</li>
+              <li>Add eggs one at a time</li>
+              <li>Add vanilla</li>
+              <li>Mix dry ingredients separately</li>
+              <li>Combine dry into wet</li>
+              <li>Fold in chocolate chips</li>
+              <li>Bake ~11 minutes total</li>
+              <li>Cool and enjoy</li>
+            </ol>
+
+            <p>
+              <em
+                >Consuming raw or uncooked ingredients may be harmful to your
+                health</em
+              >
+            </p>
+          </div>
+        </dialog>
       </div>
-      <div class="card"> 
-        <a href="recipes/slowcookedpork.html"> Seared & Slow-cooked Pork Shoulder <img src="searedpork.jpg"/> </a>
-      </div>
-      <div class="card">         
-        <a href="recipes/frenchtoast.html"> French Toast <img src="carbspiral.jpg"/> </a>
-      </div>
+
+      <!-- OTHER RECIPES (unchanged links) -->
       <div class="card">
-        <a href="grilledchez.html"> The Mighty Grilled Cheese <img src="grilledcheese.jpg"/> </a>
+        <a href="recipes/slowcookedpork.html">
+          Seared & Slow-cooked Pork Shoulder
+          <img src="searedpork.jpg" />
+        </a>
+      </div>
+
+      <div class="card">
+        <a href="recipes/frenchtoast.html">
+          French Toast
+          <img src="carbspiral.jpg" />
+        </a>
+      </div>
+
+      <div class="card">
+        <a href="grilledchez.html">
+          The Mighty Grilled Cheese
+          <img src="grilledcheese.jpg" />
+        </a>
       </div>
     </section>
-    <footer>
-      <a href="mailto:jakuffler@gmail.com"> Jason Kuffler</a> 2023
-    </footer>
 
+    <footer><a href="mailto:jakuffler@gmail.com">Jason Kuffler</a> 2023</footer>
   </body>
 </html>

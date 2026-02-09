@@ -7,7 +7,7 @@
 body {
   background-color: #322417;
   color: #A96E3B;
-  display: flex;
+  display: grid;
   flex-direction: column;
 }
 
@@ -18,7 +18,7 @@ button {
   display: flex;
 }
 
-.close-btn {
+#close-btn, #ccc-close-btn {
   display: flex;
   justify-content: flex-end;
 }

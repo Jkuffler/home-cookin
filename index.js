@@ -1,11 +1,18 @@
-const aboutBtn = document.getElementById("about-btn")
-const about = document.getElementById("about")
-const closeBtn = document.getElementById("close-btn")
+// ABOUT dialog
+const aboutBtn = document.getElementById("about-btn");
+const aboutDialog = document.getElementById("about");
 
-aboutBtn.addEventListener('click', () => {
-  about.showModal();
-})
+// CCC dialog
+const cccBtn = document.getElementById("ccc-btn");
+const cccDialog = document.getElementById("ccc");
 
-closeBtn.addEventListener('click', () => {
-  about.close();
-} )
+// Open dialogs
+aboutBtn.addEventListener("click", () => aboutDialog.showModal());
+cccBtn.addEventListener("click", () => cccDialog.showModal());
+
+// Close dialogs (shared behavior)
+document.querySelectorAll(".close-btn").forEach((btn) => {
+  btn.addEventListener("click", () => {
+    btn.closest("dialog").close();
+  });
+});
